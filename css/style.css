@@ -39,3 +39,7 @@ img {
 .navimg {
   margin: white 3px solid;
 }
+h1,
+div {
+  color: white;
+}
