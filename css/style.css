@@ -5,9 +5,11 @@
 }
 body {
   background-image: url(/img/bg_001.jpg);
+  background-color: teal;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 .menu {
   width: 100vw;
   height: 15vh;
@@ -16,16 +18,23 @@ ul li {
   margin-top: 2rem;
   display: inline-block;
   border: dotted 1px red;
-  font-size: large;
-  color: white;
+  font-size: larger;
   text-align: center;
+  text-align: right;
 }
 ul {
-  padding: 3px 70px;
-  float: center;
+  padding-right: 9vw;
+  float: right;
+  text-align: right;
   border: dotted green 2px;
 }
 
 a {
   color: white;
+}
+img {
+  width: 16vw;
+}
+.navimg {
+  margin: white 3px solid;
 }
