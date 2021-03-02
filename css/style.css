@@ -10,35 +10,61 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.navigation-bar {
+  width: 100%; /* i'm assuming full width */
+  height: 80px; /* change it to desired width */
+}
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+  margin: 15px 20px 20px 29vw;
+}
+.navigation-bar > a {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  height: 80px; /* if you want it to take the full height of the bar */
+  line-height: 80px; /* if you want it vertically middle of the navbar */
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 35px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
 .menu {
   width: 100vw;
   height: 15vh;
 }
-ul li {
+/* ul li {
   margin-top: 2rem;
   display: inline-block;
   border: dotted 1px red;
   font-size: larger;
   text-align: center;
   text-align: right;
-}
-ul {
+} */
+/* ul {
   padding-right: 9vw;
   float: right;
   text-align: right;
   border: dotted green 2px;
-}
+} */
 
 a {
   color: white;
 }
 img {
+  padding: 100px auto;
+  border: solid 2px yellow;
   width: 16vw;
-  float: right;
 }
-.navimg {
+/* .navimg {
   margin: white 3px solid;
-}
+} */
 h1,
 div {
   color: white;
