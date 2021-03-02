@@ -11,22 +11,23 @@ body {
 }
 
 .navigation-bar {
-  width: 100%; /* i'm assuming full width */
-  height: 80px; /* change it to desired width */
+  width: 100%;
+  height: 80px;
 }
 .logo {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   width: 150px;
-  margin: 15px 20px 20px 29vw;
+  margin: 15px 20px 20px 30vw;
+  float: left;
 }
-.navigation-bar > a {
+/* .navigation-bar > a {
   display: inline-block;
   vertical-align: top;
   margin-right: 20px;
-  height: 80px; /* if you want it to take the full height of the bar */
-  line-height: 80px; /* if you want it vertically middle of the navbar */
-}
+  height: 80px;
+  line-height: 80px;
+} */
 .navigation-bar ul {
   padding: 0px;
   margin: 35px;
@@ -35,10 +36,10 @@ body {
   vertical-align: top;
 }
 
-.menu {
+/* .menu {
   width: 100vw;
   height: 15vh;
-}
+} */
 /* ul li {
   margin-top: 2rem;
   display: inline-block;
@@ -61,6 +62,18 @@ img {
   padding: 100px auto;
   border: solid 2px yellow;
   width: 16vw;
+  text-align: center;
+}
+.box {
+  position: relative;
+  /* padding: 20px 50px; */
+  border: auto;
+  height: 600px;
+  width: 700px;
+  top: 50px;
+  left: 350px;
+  background-color: hotpink;
+  color: #fff;
 }
 /* .navimg {
   margin: white 3px solid;
@@ -68,4 +81,5 @@ img {
 h1,
 div {
   color: white;
+  text-align: center;
 }
