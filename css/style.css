@@ -24,7 +24,7 @@
       width: 100vw;
       height: 100vh;
     }
-  
+
     /*  menu */
     .menu {
       display: flex;
@@ -33,7 +33,7 @@
       align-items: center;
       align-content: center;
     }
-  
+
     .navigation-bar {
       border: 2px navy solid;
       display: flex;
@@ -48,21 +48,48 @@
       align-items: center;
       width: 215px;
     }
-  
+    .nav-icon {
+      border: 2px wheat dashed;
+      margin: 1em;
+      width: 40px;
+    }
+
+    .nav-icon:after,
+    .nav-icon:before,
+    .nav-icon div {
+      background-color: #000;
+      border-radius: 3px;
+      content: "";
+      display: block;
+      height: 5px;
+      margin: 7px 0;
+      transition: all 0.2s ease-in-out;
+    }
+    .nav-icon:hover:before {
+      transform: translateY(12px) rotate(135deg);
+    }
+
+    .nav-icon:hover:after {
+      transform: translateY(-12px) rotate(-135deg);
+    }
+
+    .nav-icon:hover div {
+      transform: scale(0);
+    }
     .navigation-bar ul {
-      display: none;
+      display: block;
       justify-content: space-around;
       align-items: center;
-s      width: 530px;
+      width: 530px;
     }
-  
+
     a {
       color: white;
       text-decoration: none;
     }
-  
+
     /*  Main Artiker */
-  
+    
     .main__content {
       display: flex;
       flex-direction: row-reverse;
@@ -109,24 +136,22 @@ s      width: 530px;
     }
     .image1 {
       /* display: flex; */
-      position: absolute;
-      top: 0px;
-      right: 5px;
-      /* border: 2px black dashed; */
-      width: 200px;
-    }
-    .image2 {
-      position: absolute;
-      top: 10px;
-      left: 25px;
-      width: 200px;
-      /* border: 1px green solid; */
-    }
-    p {
-      text-align: left;
-    }
-  
-
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    /* border: 2px black dashed; */
+    width: 200px;
+  }
+  .image2 {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    width: 200px;
+    /* border: 1px green solid; */
+  }
+  p {
+    text-align: left;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
