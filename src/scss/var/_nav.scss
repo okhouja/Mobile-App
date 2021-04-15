@@ -9,7 +9,7 @@
 
 @media only screen and (max-width: 600px) {
   body {
-    // background-image: url(../img/bg_001.jpg);
+    background-image: url(../img/bg_001.jpg);
     display: flex;
     background-color: rgba(49, 184, 184, 0.596);
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -28,7 +28,7 @@
   /*  menu */
   .menu {
     display: flex;
-    /* border: 2px red dotted; */
+    // border: 2px red dotted;
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
