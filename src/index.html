@@ -12,7 +12,7 @@
       <section class="menu">
         <nav class="navigation-bar">
           <img class="logo" src="./img/logo_001.png" />
-          <ul class="nav-icon">
+          <ul class="nav-icon topnav myLinks">
             <li><a href="#">PRODUCS</a></li>
             <li><a href="#">PRICES</a></li>
             <li><a href="#">BLOG</a></li>
@@ -47,5 +47,15 @@
         </div>
       </header>
     </main>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>
